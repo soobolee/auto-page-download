@@ -1,7 +1,9 @@
+import icon from "../../assets/icon.png";
+
 function ImageContainer() {
   return (
     <div className="w-[50%] h-full flex justify-center items-center">
-      <img src="" alt="logo" />
+      <img src={icon} alt="logo" className="w-[80%]" />
     </div>
   );
 }
