@@ -1,6 +1,7 @@
 import Footer from "../Footer/Footer";
 import MainContent from "../Content/MainContent";
 import Header from "../Header/Header";
+import ParticleCanvas from "../Canvas/ParticleCanvas";
 
 function MainContainer() {
   return (
@@ -8,6 +9,7 @@ function MainContainer() {
       <Header />
       <MainContent />
       <Footer />
+      <ParticleCanvas />
     </div>
   );
 }
