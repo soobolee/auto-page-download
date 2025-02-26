@@ -17,6 +17,10 @@ function ContentContainer() {
             </button>
           </a>
         </div>
+        <div className="absolute bottom-0 left-0 w-full h-10 flex items-center">
+          <button className="w-[50%] h-full bg-green rounded-bl-xl">Guide for Mac</button>
+          <button className="w-[50%] h-full bg-subsub rounded-br-xl">Guide for Window</button>
+        </div>
       </div>
     </div>
   );
