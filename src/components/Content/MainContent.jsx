@@ -3,7 +3,7 @@ import ImageContainer from "../Container/ImageContainer";
 
 function MainContent() {
   return (
-    <main className="w-full h-[90%] flex md:flex-row flex-col flex-col-reverse justify-center items-center">
+    <main className="w-full h-[90%] flex md:flex-row flex-col justify-center items-center">
       <ImageContainer />
       <ContentContainer />
     </main>
