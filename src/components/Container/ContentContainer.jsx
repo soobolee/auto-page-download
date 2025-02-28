@@ -39,11 +39,17 @@ function ContentContainer() {
           </a>
         </div>
         <div className="absolute bottom-0 left-0 w-full h-10 flex items-center">
-          <button className="w-[50%] h-full bg-green rounded-bl-xl" onClick={handleMacGuideClick}>
+          <button className="relative w-[50%] h-full bg-green rounded-bl-xl cursor-pointer" onClick={handleMacGuideClick}>
             Guide for Mac
+            <div class="absolute top-[-25px] left-27 h-7 w-15 flex justify-center items-center animate-pulse rounded-full bg-red-500">
+              <span className="text-2xs">Click</span>
+            </div>
           </button>
-          <button className="w-[50%] h-full bg-subsub rounded-br-xl" onClick={handleWindowsGuideClick}>
+          <button className="relative w-[50%] h-full bg-subsub rounded-br-xl cursor-pointer" onClick={handleWindowsGuideClick}>
             Guide for Window
+            <div class="absolute top-[-25px] right-27 h-7 w-15 flex justify-center items-center animate-pulse rounded-full bg-red-500">
+              <span className="text-2xs">Click</span>
+            </div>
           </button>
           <GuideContainer showMacGuide={showMacGuide} showWindowsGuide={showWindowsGuide} handleCloseModal={handleCloseModal} />
         </div>
