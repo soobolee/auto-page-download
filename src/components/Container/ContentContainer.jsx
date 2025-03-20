@@ -27,12 +27,12 @@ function ContentContainer() {
         <h1 className="text-3xl">Download App</h1>
         <p className="my-10 text-xl">Click the button! start your download.</p>
         <div className="flex md:flex-row flex-col justify-center items-center">
-          <a href="https://github.com/soobolee/auto-page/releases/download/v1.0.1-mac/AUTOPAGE-1.0.0-arm64.dmg.zip">
+          <a href="https://github.com/soobolee/auto-page/releases/download/v1.0.2-mac/Auto.Page.zip">
             <button className="p-2 m-2 bg-blue text-xl rounded-xl hover:bg-[#21a1f1] hover:scale-125 active:scale-90 transition duration-300 animate-bounce cursor-pointer">
               Download for Mac
             </button>
           </a>
-          <a href="https://github.com/soobolee/auto-page/releases/download/v1.0.1-window/AutoPage-win32-x64.zip">
+          <a href="https://github.com/soobolee/auto-page/releases/download/v1.0.2-window/Auto.Page.zip">
             <button className="p-2 m-2 bg-blue text-xl rounded-xl hover:bg-[#21a1f1] hover:scale-125 active:scale-90 transition duration-300 animate-bounce cursor-pointer">
               Download for Window
             </button>
