@@ -13,7 +13,7 @@ function GuideContainer({showMacGuide, showWindowsGuide, handleCloseModal}) {
               <h2 className="text-2xl mb-4">Guide for Mac</h2>
               <div className="text-left">
                 <p className="text-lg mb-10">코드 서명을 하지 않았기 때문에 가이드를 필수로 읽어주시기 바랍니다.</p>
-                <p>1. Spotlig를 열고 검색 필드에 터미널을 입력한 다음 터미널을 엽니다.</p>
+                <p>1. Spotlight를 열고 검색 필드에 터미널을 입력한 다음 터미널을 오픈합니다.</p>
                 <p>
                   2. 다음의 명령어를 입력합니다. <span className="text-green">directory</span>에는 현재 앱의 경로를 넣어 주세요.
                 </p>
