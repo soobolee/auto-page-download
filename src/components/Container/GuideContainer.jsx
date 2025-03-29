@@ -1,4 +1,4 @@
-import windowAlert from "../../assets/windowalert.png";
+import windowAlert from "../../assets/windowalert.webp";
 
 function GuideContainer({showMacGuide, showWindowsGuide, handleCloseModal}) {
   return (
