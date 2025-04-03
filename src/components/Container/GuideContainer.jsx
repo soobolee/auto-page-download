@@ -4,7 +4,7 @@ function GuideContainer({showMacGuide, showWindowsGuide, handleCloseModal}) {
   return (
     (showMacGuide || showWindowsGuide) && (
       <div className="fixed inset-0 flex justify-center items-center z-40">
-        <div className="relative w-[40%] h-[40%] bg-sub rounded-xl p-10 shadow-lg overflow-y-scroll">
+        <div className="relative md:w-[40%] w-full md:h-[40%] h-full bg-sub rounded-xl p-10 shadow-lg overflow-y-scroll">
           <button className="absolute top-5 right-5 p-2 bg-red-400 text-white rounded-xl" onClick={handleCloseModal}>
             Close
           </button>
@@ -17,7 +17,7 @@ function GuideContainer({showMacGuide, showWindowsGuide, handleCloseModal}) {
                 <p>
                   2. 다음의 명령어를 입력합니다. <span className="text-green">directory</span>에는 현재 앱의 경로를 넣어 주세요.
                 </p>
-                <div className="bg-gray-600 h-10 px-2 my-2 flex items-center rounded-xl">
+                <div className="bg-gray-600 md:h-10 h-20 px-2 my-2 flex items-center rounded-xl">
                   <p>
                     xattr -c /Applications/<span className="text-green">...directory</span>/AutoPage.app
                   </p>
